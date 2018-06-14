@@ -3,7 +3,7 @@ const canvas = document.querySelector('.canvas')
 let currentColor
 
 function createCanvas() {
-    for (let i = 0; i < 504; i++) {
+    for (let i = 0; i < 486; i++) {
         const cell = document.createElement('div')
         cell.classList.add('cell')
 
